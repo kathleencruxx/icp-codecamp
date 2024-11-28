@@ -1,5 +1,370 @@
-<center>
-<img src="new.png" width="100%"/>
-<br/>
-<img src="ceu_codecamp.jpg"/>
-</center>
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathleen Anne Cruz Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="welcome.html">
+                    <img src="images/logo.png" alt="Kathleen Logo">
+                    <span>Profile Website</span>
+                </a>
+            </div>
+            
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#works" class="menu-btn">Works</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#education" class="menu-btn">Education</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Kathleen Anne Cruz</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profile-1.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Kathleen and I'm a <span class="typing-2"></span></div>
+                    <p>Hi! I'm Kathleen Anne Cruz, a 20-year-old from Quezon, Nueva Ecija, in my second year of a BS in Information Technology. Balancing studies with work has enriched my design skills, combining real-world experience with a solid academic foundation.</p><br>
+                    <p>As a graphic and web designer, I specialize in creating seamless, intuitive digital experiences. My approach combines logic, independence, and creativity, allowing me to tackle design challenges from fresh angles and explore innovative ideas fearlessly. Whether crafting brand identities, responsive websites, or engaging visuals, I’m dedicated to blending aesthetics and functionality.</p><br>
+                    <p>I’m passionate about bringing ideas to life with originality and precision. I stay updated on trends and constantly refine my skills to deliver designs that captivate and resonate. Let's create something impactful together!                    </p><br>
+                   
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="works" id="works">
+        <div class="max-width">
+            <h2 class="title">My Works</h2>
+            <div class="serv-content">
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/15ckNCUnXY4QgupiqeAdL-LVtevIfywe0')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Employee Info System</div>
+                        <p>ITE300</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1s2X4QALdoV1Gu9rZCftLXV54gT67hwgg')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">BakEly Website</div>
+                        <p>ITE399</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1NhKAdgm2jO2TCPS-EHdSQbIXQRGAxmMP')">
+                    <div class="box" >
+                        <i class="fas fa-code"></i>
+                        <div class="text">Library Search Website</div>
+                        <p>ITE398</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1aCMHMoJqxTcPp5I493A7p_ccenYgVZAH')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">ClassMark</div>
+                        <p>ITE186</p>
+                    </div>
+               </div>
+               <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1a3l65xT47ssMX4yfoiIDTdDwWf3Ee_Rn')">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Netiquette Website</div>
+                    <p>GEN008</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/u/0/folders/1kkq75ldxPKasuPcH5cKqcaP9Iyyibh-Z')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">NetWorking</div>
+                        <p>ITE292</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1PFzXLJT6izAaJZzEIqOezrSb2AOFT8Bv?usp=drive_link')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">MEDACARE ANDROID S</div>
+                        <p>ITE013</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1bskf0FC9cPYPqRQnHGaPsPA-pKzkD8EA?usp=sharing')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Sekkie E-COMMERNCE</div>
+                        <p>ITE380</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('http://sekkie-ph.42web.io/sekkie/login/index.php')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Sekkie E-COMMERNCE</div>
+                        <p>ITE400</p>
+                    </div>
+                </div>
+                <div class="card" onclick="goToPage('https://drive.google.com/drive/folders/1OXCUV7vmLFrQ6LZVRYoP7rsJ_Z7NecZl')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">OBE Case 1: Pocket Weather App</div>
+                        <p>ITE308</p>
+                    </div>
+                </div>
+                
+                <div class="card" onclick="goToPage('https://au2it1kaccruzcase2.w3spaces.com/')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">OBE Case 2: Phinma Student Evaluator (PSE)</div>
+                        <p>ITE308</p>
+                    </div>
+                </div>
+
+
+                <div class="card" onclick="goToPage('http://139.59.117.163')">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Integrated Project: 3'Js SNACK HOUSE</div>
+                        <p>ITE307, ITE314, ITE353</p>
+                    </div>
+                </div>
+
+            
+    </section>
+
+   
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills.</div>
+                    <p>Think more, Design less.</p>
+                    <a href="https://kathleenannecruz.jobs180.com/">RESUME</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Creativity</span>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Branding and Typography</span>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Communication</span>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Graphic Desinger</span>
+                        </div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Wed Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="education" id="education">
+        <div class="max-width">
+            <h2 class="title">More on about me</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/Kathleen1.jpeg" alt="">
+                        <div class="text">Hacker vs Hacker</div>
+                        <p>TECHTALK Ignite{it}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/ai.jpg" alt="">
+                        <div class="text">Artificial Intelligence</div>
+                        <p>TECHTALK Ignite{it}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/itpro.png" alt="">
+                        <div class="text">IT IN THE BPO INDUSTRY</div>
+                        <p>TECHTALK Ignite{it}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/human.png" alt="">
+                        <div class="text">HUMANITARIAN TECHNOLOGY</div>
+                        <p>TECHTALK Ignite{it}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/digi.png" alt="">
+                        <div class="text">DIGITAL PHOTOGRAPHY 1O1</div>
+                        <p>TECHTALK Ignite{it}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/oct3.jpg" alt="">
+                        <div class="text">INTRODUCTION TO CSS</div>
+                        <p>Certificate of Completion</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/oct7.jpg" alt="">
+                        <div class="text">INSTALLING AND CONFIGURING COMPUTER SYSTEM</div>
+                        <p>Certificate of Completion</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/oct8.jpg" alt="">
+                        <div class="text">SETTING UP COMPUTER NETWORKS</div>
+                        <p>Certificate of Completion</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/oct9.jpg" alt="">
+                        <div class="text">SETTING UP COMPUTER SERVER</div>
+                        <p>Certificate of Completion</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/oct10.jpg" alt="">
+                        <div class="text">MAITAINING COMPUTER SYSTEM AND NETWORKS</div>
+                        <p>Certificate of Completion</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">My personal</div>
+                    <p>Example</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Kathleen Anne Cruz</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Quezon, Nueva Ecija</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">cruzkathleenanne20@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="social-icons">
+            <a href="https://web.facebook.com/iamkathleencute" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/kathleen_cruxx/profilecard/?igsh=MXJoa2d3dmh2ZWlncw==" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:cruzkathleenanne20@gmail.com">
+                <i class="far fa-envelope"></i>
+            </a>
+        </div>
+        <span>Created By Kathleen Anne Cruz | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
